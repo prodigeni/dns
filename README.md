@@ -8,7 +8,7 @@ This repository is an example used to demonstrate the [DNS-API](http://dns-api.c
 Details
 -------
 
-This repository has been configured with a webhook, which means every time a change is pushed to it the GitHub system will call out to the [DNS-API](http://dns-api.com/") servers.
+This repository has been configured with a webhook, which means every time a change is pushed to it the GitHub system will call out to the [DNS-API](http://dns-api.com/) servers.
 
 The hook will initiate a scan of each file beneath the `zones/` directory - and each zone there will be added to DNS.  The files __must__ be named after the zone they represent, to allow identification to work successfully.
 
