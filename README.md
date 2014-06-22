@@ -26,3 +26,4 @@ The zone-format is a simplified version of the [TinyDNS  format](http://cr.yp.to
 
 
 The [edinburgh.io zone](zones/edinburgh.io) file should be reasonably self-documenting, but feel free to [get in touch](http://dns-api.com/docs/help) if you have queries, comments, or problems.
+
