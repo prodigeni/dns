@@ -8,8 +8,8 @@
 #   @ for MX.
 #   + for A.
 #   6 for AAAA.
-#   C for CNAME
-#
+#   C for CNAME.
+#   T for TXT.
 
 
 #
@@ -28,6 +28,13 @@
 #
 6edinburgh.io:200141c8010b01030000000000000010:300
 6www.edinburgh.io:200141c8010b01030000000000000010:300
+
+
+#
+#  A TXT record - NOTE That the value must be quoted.
+#
+Tedinburgh.io:"v=spf1 mx a ptr ip4:1.2.3.4 ?all":300
+
 
 #
 # This is a CNAME
