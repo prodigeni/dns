@@ -25,7 +25,9 @@ The zone-format is a simplified version of the [TinyDNS  format](http://cr.yp.to
 * Lines prefixed with "`@`" are MX records.
 * Lines prefixed with "`C`" are CNAME records.
 
-The [edinburgh.io zone](zones/edinburgh.io) file should be reasonably self-documenting, but feel free to [get in touch](http://dns-api.com/docs/help) if you have queries, comments, or problems.
+The general form of each line is "type : name : value : TTL", and the [edinburgh.io zone](zones/edinburgh.io) file should be a good example.
+
+Feel free to [get in touch](http://dns-api.com/docs/help) if you have queries, comments, or problems.
 
 
 
