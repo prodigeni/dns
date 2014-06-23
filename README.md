@@ -35,4 +35,4 @@ Feel free to [get in touch](http://dns-api.com/docs/help) if you have queries, c
 Future Changes
 --------------
 
-In the future we'll add support for `TXT`, and `SRV` records.
+In the future we'll add support for `SRV` records, along with others that users report are missing.
